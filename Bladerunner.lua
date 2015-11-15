@@ -7,7 +7,7 @@ function target.config()
 		"--iso-application DebVirt",
 		"--iso-preparer 'Mitchell Monahan'",
 		"--iso-publisher 'Mitchell Monahan'",
-		"--mode debian"
+		"--mode debian",
 	}
 	print(name)
 	local exitCode,stdout,stderr=blade.exec("lb config "..table.concat(config_args," "))
