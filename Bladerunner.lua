@@ -2,7 +2,6 @@ function target.config()
 	local name = "Generating live build configuration..."
 	local config_args = {
 		"--apt apt",
-		"--bootloader grub",
 		"--debian-installer-gui false",
 		"--distribution jessie",
 		"--iso-application DebVirt",
